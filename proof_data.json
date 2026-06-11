@@ -1,0 +1,7 @@
+{
+  "merkleRoot": "0xfdf0cf99db986d4eccedada8b1c1dcc388f028f92bcfa43ccaafe29ea2f834c7",
+  "aggregatedSignature": "90c65e16a6502b839d186eccad54fbc4d2614cf90d852b836343a6eb8dc0132649585367ff768c8f8c0c9425bc2acb8017eba433b76385c03e92aa3cc802d487c80afba5c52585133a0a792496ab3166fa59939af14c6dd7114caf736dd7a646",
+  "aggregatedPubKey": "a4e3a7637e8d43f4337b2e5ca4b4ae98eaea988cf031aebedf61153531569e64b8c9f511dfd24f547c76566388dbfcb7",
+  "signers": 2,
+  "verifiedBy": "CDC & VI Testing Authority"
+}

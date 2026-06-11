@@ -1,0 +1,14 @@
+[
+  {
+    "batchId": "BATCH001",
+    "vaccine": "Covishield",
+    "manufacturer": "ABC Biotech",
+    "expiry": "2026-01-31"
+  },
+  {
+    "batchId": "BATCH002",
+    "vaccine": "Covaxin",
+    "manufacturer": "XYZ Labs",
+    "expiry": "2026-03-15"
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaccine Supply Chain DApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+
+<h1>💉 Vaccine Supply Chain System</h1>
+
+<div class="container">
+
+    <!-- Manufacturer -->
+    <div class="card">
+        <h2>🏭 Manufacturer</h2>
+        <input id="m_batch" placeholder="Batch Name">
+        <input id="m_vaccine" placeholder="Vaccine Name">
+        <input id="m_manufacturer" placeholder="Manufacturer">
+        <button onclick="register()">Upload</button>
+        <p id="m_result"></p>
+    </div>
+
+    <!-- CDC -->
+    <div class="card">
+        <h2>🧪 CDC / Authority</h2>
+        <input id="v_batch" placeholder="Batch Name">
+        <button onclick="validateBatch()">Validate</button>
+        <p id="v_result"></p>
+    </div>
+
+    <!-- Regulator -->
+    <div class="card">
+        <h2>🏛️ Regulator</h2>
+        <input id="r_batch" placeholder="Batch Name">
+        <button onclick="verifyBatch()">Verify</button>
+        <p id="r_result"></p>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
